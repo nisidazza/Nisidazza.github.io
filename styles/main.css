@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    display: grid;
+    /*border: 2px gray solid;*/
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 35% 25% 25% 15%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.welcome {
+   grid-area: 1 / 1 / 2 / 5;  
+   border: 1px blue solid; 
+   
+   
+}
+.about {
+   grid-area: 2 / 1 / 5 / 4;
+   border: 1px blue solid; 
+   width: auto;
+}
+.menu {
+    grid-area: 2 / 5 / 5 / 4;
+    border: 1px blue solid;
+}
+.footer {
+    grid-area: 5 / 1 / 5 / 5;
+    border: 1px blue solid;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    
+}
+
+
+
+
