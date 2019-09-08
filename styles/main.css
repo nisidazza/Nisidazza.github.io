@@ -37,7 +37,7 @@ nav.nav-list li {
 }
 
 div.title {
-   grid-column: col-start 7 / span 12;
+   grid-column: col-start 7 / span 6;
    grid-row: 1 / 2; 
    color: black;
    text-align: right;  
