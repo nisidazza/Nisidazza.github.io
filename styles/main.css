@@ -18,6 +18,11 @@ div.wrapper > * {
     grid-column: col-start / span 12;
 }
 
+span.header-background {
+    grid-column: col-start / span 12;
+    grid-row: 1 / 2;
+    background-color: coral
+}
 
 nav.nav-list {
    grid-column: col-start / span 6;
