@@ -4,27 +4,29 @@
 .wrapper {
     display: grid;
     /*border: 2px gray solid;*/
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 35% 25% 25% 15%;
-    grid-column-gap: 10px;
+    grid-template-columns: repeat(12, [col-start] 1fr);
     grid-row-gap: 10px;
 }
 
-.welcome {
-   grid-area: 1 / 1 / 2 / 5;  
-   border: 1px blue solid; 
-   
-   
+.wrapper > * {
+    grid-column: col-start / span 12;
 }
+
+.main-head {
+   grid-area: 1 / 1 / 6 / 5;  
+   border: 1px blue solid;  
+}
+
+.nav {
+    grid-area: 2 / 1 / 6 / 5;
+  }
+
 .about {
-   grid-area: 2 / 1 / 5 / 4;
+   grid-area: 3 / 1 / 6 / 5;
    border: 1px blue solid; 
    width: auto;
 }
-.menu {
-    grid-area: 2 / 5 / 5 / 4;
-    border: 1px blue solid;
-}
+
 .footer {
     grid-area: 5 / 1 / 5 / 5;
     border: 1px blue solid;
