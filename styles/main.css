@@ -27,7 +27,7 @@ div.wrapper > * {
 span.header-background {
     grid-column: col-start / span 12;
     grid-row: 1 / 2;
-    background-image: linear-gradient(to right, dodgerblue, azure );
+    background-image: linear-gradient(to right, darkslategrey, azure );
 }
 
 nav.nav-list {
@@ -87,7 +87,7 @@ div.my-image {
 }
 
 footer.social-icon a {
-    color:dimgray;
+    color:darkslategrey;
 }
 
 footer.social-icon {
@@ -99,19 +99,17 @@ footer.social-icon {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 30px;
-    background-color:lightgray;
+    background-color:rgb(183, 199, 186);
 }
 
-footer.social-icon #social-fb{
+footer.social-icon i{
     padding: 10px;
 }
 
-footer.social-icon #social-tw{
-    padding: 10px;
-}
-
-footer.social-icon #social-in{
-    padding: 10px;
+footer.social-icon #social-gm:hover{
+    color: #D44638;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
 }
 
 footer.social-icon #social-fb:hover{
@@ -128,6 +126,12 @@ footer.social-icon #social-tw:hover{
 
 footer.social-icon #social-in:hover{
     color: #0e76a8;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+}
+
+footer.social-icon #social-gh:hover{
+    color: #6e5494;
     transform: scale(1.5);
     transition-duration: 0.8s;
 }
