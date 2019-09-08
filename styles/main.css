@@ -13,30 +13,52 @@
 }
 
 .main-head {
-   grid-area: 1 / 1 / 6 / 5;  
+   grid-column: col-start / span 12;
+   grid-row: 1;  
    border: 1px blue solid;  
 }
 
-.nav {
-    grid-area: 2 / 1 / 6 / 5;
-  }
-
 .about {
-   grid-area: 3 / 1 / 6 / 5;
+   grid-column: col-start / span 8;
+   grid-row: 3;
    border: 1px blue solid; 
    width: auto;
 }
 
 .footer {
-    grid-area: 5 / 1 / 5 / 5;
+    grid-column: col-start / span 12;
+    grid-row: 12;
     border: 1px blue solid;
 }
 
 h1{
     color: red;
-    text-align: center;
-    
+    text-align: center;   
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin:10px;
+}
+
+.active {
+    background-color: cyan;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(110, 112, 114);
+}
+
+
+
+
 
 
 
