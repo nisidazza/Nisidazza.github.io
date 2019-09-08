@@ -3,6 +3,11 @@ p, a, h1, h2, h3, h4, h5, h6{
     padding: 0px;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,6 +15,7 @@ p, a, h1, h2, h3, h4, h5, h6{
 div.wrapper {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-template-rows: auto;
     grid-gap: 10px;
     font-family: 'Gayathri', sans-serif;
 }
@@ -21,7 +27,7 @@ div.wrapper > * {
 span.header-background {
     grid-column: col-start / span 12;
     grid-row: 1 / 2;
-    background-color: coral
+    background-image: linear-gradient(to right, dodgerblue, azure );
 }
 
 nav.nav-list {
@@ -67,18 +73,56 @@ div.my-image {
     grid-row: 2 / 3;
 }
 
-footer.footer {
+footer.social-icon {
     grid-column: col-start / span 12;
-    grid-row: 12;
-    border: 1px black solid;
+    grid-row: 12 / span 12;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    background-color: gainsboro;
+    position: relative;
+}
+
+footer.social-icon #social-fb:hover{
+    color: #3B5998;
+}
+
+footer.social-icon #social-fb{
+    padding: 10px;
+}
+
+footer.social-icon #social-tw{
+    padding: 10px;
+}
+
+footer.social-icon #social-ln{
+    padding: 10px;
+}
+
+footer.social-icon #social-tw:hover{
+    color: #4099FF;
+}
+
+footer.social-icon #social-ln:hover{
+    color: #0e76a8;
+}
+
+footer.social-icon .social{
+    transform: scale(0.8);
 }
 
 .active {
-    background-color: cyan;
+    background-color:azure;
+    opacity: 0.2;
+
 }
 
-a:hover:not(.active) {
+.main-menu a:hover:not(.active) {
     background-color: rgb(110, 112, 114);
+    opacity: 0.2;
 }
 
 
