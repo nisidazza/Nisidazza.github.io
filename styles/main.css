@@ -15,9 +15,9 @@ html, body {
 div.wrapper {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(12, [row-start] 1fr);
     grid-gap: 10px;
-    font-family: 'Gayathri', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 div.wrapper > * {
@@ -60,10 +60,23 @@ div.title p {
     font-size: 2em;
 }
 
+.main-menu button {
+    background-color:azure;
+    border-radius: 10%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.main-menu button a{
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+
 div.about {
    grid-column: col-start / span 7;
    grid-row: 2 / 3; 
-   border: 1px black solid; 
    width: auto;
    padding: 10px;
 }
@@ -71,6 +84,10 @@ div.about {
 div.my-image {
     grid-column: col-start 9 / span 4;
     grid-row: 2 / 3;
+}
+
+footer.social-icon a {
+    color:dimgray;
 }
 
 footer.social-icon {
@@ -82,12 +99,7 @@ footer.social-icon {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 30px;
-    background-color: gainsboro;
-    position: relative;
-}
-
-footer.social-icon #social-fb:hover{
-    color: #3B5998;
+    background-color:lightgray;
 }
 
 footer.social-icon #social-fb{
@@ -98,20 +110,26 @@ footer.social-icon #social-tw{
     padding: 10px;
 }
 
-footer.social-icon #social-ln{
+footer.social-icon #social-in{
     padding: 10px;
+}
+
+footer.social-icon #social-fb:hover{
+    color: #3B5998;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
 }
 
 footer.social-icon #social-tw:hover{
     color: #4099FF;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
 }
 
-footer.social-icon #social-ln:hover{
+footer.social-icon #social-in:hover{
     color: #0e76a8;
-}
-
-footer.social-icon .social{
-    transform: scale(0.8);
+    transform: scale(1.5);
+    transition-duration: 0.8s;
 }
 
 .active {
@@ -123,6 +141,7 @@ footer.social-icon .social{
 .main-menu a:hover:not(.active) {
     background-color: rgb(110, 112, 114);
     opacity: 0.2;
+    
 }
 
 
