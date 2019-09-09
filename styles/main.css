@@ -55,6 +55,7 @@ div.title {
    text-align: right;  
    text-transform: uppercase;  
    align-self: center;
+   margin-right: 10px;
 }
 
 div.title p {    
