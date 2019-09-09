@@ -1,4 +1,4 @@
-p, a, h1, h2, h3, h4, h5, h6{
+p, a, h1, h2, h3, h4, h5, h6, figure {
     margin: 0px;
     padding: 0px;
 }
@@ -14,10 +14,12 @@ html, body {
 
 div.wrapper {
     display: grid;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: repeat(12, [row-start] 1fr);
+    grid-template-columns: repeat(auto-fit, [col-start] 1fr);
+    grid-template-rows: auto 1fr auto;
     grid-gap: 10px;
     font-family: 'Libre Franklin', sans-serif;
+    position: relative;
+    min-height: 100%;
 }
 
 div.wrapper > * {
@@ -74,17 +76,21 @@ div.title p {
     font-size: 16px;
 }
 
-div.about {
-   grid-column: col-start / span 7;
-   grid-row: 2 / 3; 
-   width: auto;
-   padding: 10px;
+div.main-page-img-background {
+   grid-column: col-start / span 12;
+   grid-row: row-start 2 / span 10;
+   object-fit: contain;
+   font-size: 16px;
+   text-align: center;
 }
 
-div.my-image {
-    grid-column: col-start 9 / span 4;
-    grid-row: 2 / 3;
+div.main-page-img-background img {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
+
+
+
 
 footer.social-icon a {
     color:darkslategrey;
@@ -92,12 +98,14 @@ footer.social-icon a {
 
 footer.social-icon {
     grid-column: col-start / span 12;
-    grid-row: 12 / span 12;
     display: flex;
+    flex-shrink: 0;
+    position: absolute;
     justify-content: space-evenly;
     align-self: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: auto;
     font-size: 30px;
     background-color:rgb(183, 199, 186);
 }
