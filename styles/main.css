@@ -25,7 +25,7 @@ div.wrapper > * {
     grid-column: col-start / span 12;
 }
 
-li.dropdown {
+div.li.dropdown {
     position: relative;
     display: inline-block;
     font-size: 15px;
@@ -58,23 +58,27 @@ div .dropdown .dropbtn:hover {
     color: azure; 
 }
 
-span.header-background {
-    grid-column: col-start / span 12;
-    grid-row: 1 / 2;
-    background-image: linear-gradient(to right, darkslategrey, azure );
-}
+div.main-page-img-background {
+    grid-row: 2 / span 10;
+    object-fit: contain;
+    font-size: 8px;
+    text-align: center;
+    margin: 20px auto;
+ }
 
 nav.nav-list {
    grid-column: col-start / span 6;
    grid-row: 1 / 2; 
-   align-self: center;
+   display: flex;
    padding: 10px;
+   align-self: center;
 }
 
 nav.nav-list ul {
     margin: 0px;
+    display: inline;
+    padding: 0px;
 }
-
 
 nav.nav-list li {
     float: left;
@@ -97,14 +101,24 @@ div.title p {
 
 .main-menu button {
     background-color:transparent;
-    transition-duration: 0.4s;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     border: none;
     font-weight: bold;
     font-size: 18px;
     width:120px;
 }
+
+.main-menu button a{
+    text-decoration: none;
+    color:black;
+    position: relative;
+    text-align: center;
+    display: block;
+    transition-duration: 0.2s;
+    margin: 0;
+}
+
 
 .main-menu button:hover {
     background-color:#8fbcbc;  
@@ -113,21 +127,6 @@ div.title p {
 
 .main-menu button a:hover{color: azure;}
 
-.main-menu button a{
-    text-decoration: none;
-    color:black;
-    text-align: center;
-    display: inline-block;
-    margin: 0;
-}
-
-div.main-page-img-background {
-   grid-row: 2 / span 10;
-   object-fit: contain;
-   font-size: 8px;
-   text-align: center;
-   margin: 20px auto;
-}
 
 footer.social-icon a {
     color:darkslategrey;
@@ -178,6 +177,12 @@ footer.social-icon #social-gh:hover{
     color: #6e5494;
     transform: scale(1.5);
     transition-duration: 0.8s;
+}
+
+span.header-background {
+    grid-column: col-start / span 12;
+    grid-row: 1 / 2;
+    background-image: linear-gradient(to right, darkslategrey, azure );
 }
 
 
