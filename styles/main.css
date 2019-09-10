@@ -39,11 +39,14 @@ div.dropdown-list a {
     padding: 10px 14px;
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
 }
 
-div .dropdown-list a:hover {background-color: #8fbcbc;}
+div .dropdown-list a:hover {
+    background-image:linear-gradient(to bottom, darkslategrey, azure ); 
+    color: azure;
+}
 
 div .dropdown:hover .dropdown-list {display: block;}
 
