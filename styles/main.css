@@ -25,6 +25,39 @@ div.wrapper > * {
     grid-column: col-start / span 12;
 }
 
+li.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+div.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: azure;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+  }
+
+div.dropdown-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+div .dropdown-list a:hover {background-color: #8fbcbc;}
+
+div .dropdown:hover .dropdown-list {display: block;}
+  
+div .dropdown:hover .dropbtn {background-color:azure;}
+
+div .dropdown .dropbtn:hover {
+    background-color:#8fbcbc; 
+    color: azure; 
+}
+
 span.header-background {
     grid-column: col-start / span 12;
     grid-row: 1 / 2;
@@ -42,10 +75,10 @@ nav.nav-list ul {
     margin: 0px;
 }
 
+
 nav.nav-list li {
     float: left;
     list-style-type: none;
-    padding-right: 10px;
 }
 
 div.title {
@@ -63,17 +96,29 @@ div.title p {
 }
 
 .main-menu button {
-    background-color:azure;
-    border-radius: 10%;
-    padding: 10px;
+    background-color:transparent;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
     font-weight: bold;
+    font-size: 18px;
+    width:120px;
 }
 
+.main-menu button:hover {
+    background-color:#8fbcbc;  
+    padding:30px;
+}
+
+.main-menu button a:hover{color: azure;}
+
 .main-menu button a{
-    padding: 10px;
     text-decoration: none;
     color:black;
-    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
 }
 
 div.main-page-img-background {
@@ -135,17 +180,8 @@ footer.social-icon #social-gh:hover{
     transition-duration: 0.8s;
 }
 
-.active {
-    background-color:azure;
-    opacity: 0.2;
 
-}
 
-.main-menu a:hover:not(.active) {
-    background-color: rgb(110, 112, 114);
-    opacity: 0.2;
-    
-}
 
 
 
