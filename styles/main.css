@@ -50,12 +50,10 @@ div.dropdown-list a {
 div .dropdown-list a:hover {background-color: #8fbcbc;}
 
 div .dropdown:hover .dropdown-list {display: block;}
-  
-div .dropdown:hover .dropbtn {background-color:azure;}
 
-div .dropdown .dropbtn:hover {
-    background-color:#8fbcbc; 
+div .dropdown .dropbtn:hover { 
     color: azure; 
+    text-align: center;
 }
 
 div.main-page-img-background {
@@ -112,20 +110,15 @@ div.title p {
 .main-menu button a{
     text-decoration: none;
     color:black;
-    position: relative;
-    text-align: center;
     display: block;
     transition-duration: 0.2s;
     margin: 0;
 }
 
-
-.main-menu button:hover {
-    background-color:#8fbcbc;  
-    padding:30px;
+.main-menu button a:hover{
+    color: azure;
+    width:120px;  
 }
-
-.main-menu button a:hover{color: azure;}
 
 
 footer.social-icon a {
