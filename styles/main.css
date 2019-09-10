@@ -25,28 +25,24 @@ div.wrapper > * {
     grid-column: col-start / span 12;
 }
 
-div.li.dropdown {
-    position: relative;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bold;
-  }
-
 div.dropdown-list {
     display: none;
     position: absolute;
     background-color: azure;
-    min-width: 160px;
+    min-width: 100px;
     z-index: 1;
     text-align: left;
   }
 
 div.dropdown-list a {
     color: black;
-    padding: 12px 16px;
+    padding: 10px 14px;
     text-decoration: none;
     display: block;
-  }
+    font-size: 14px;
+    font-weight: bold;
+}
+
 div .dropdown-list a:hover {background-color: #8fbcbc;}
 
 div .dropdown:hover .dropdown-list {display: block;}
@@ -74,8 +70,7 @@ nav.nav-list {
 
 nav.nav-list ul {
     margin: 0px;
-    display: inline;
-    padding: 0px;
+    text-align: center;
 }
 
 nav.nav-list li {
@@ -118,6 +113,7 @@ div.title p {
 .main-menu button a:hover{
     color: azure;
     width:120px;  
+    text-align: left;
 }
 
 
