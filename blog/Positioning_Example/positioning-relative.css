@@ -1,0 +1,56 @@
+.main{
+  min-height: 50px;
+  max-height:150px;
+  min-width: 400px;
+  max-width: 1000px;	
+  overflow: scroll;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: lightgray;
+  position: relative;
+}
+
+p {
+  color: black;
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+h3 {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top:30px;
+  font-family: 'Calibri', sans-serif; 
+}
+
+.boxes {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+.box1 {
+  background-color: red;
+  margin: 10px;
+}
+
+.box2 {
+  background-color: green;
+  margin: 10px;
+  position: relative;
+  top:50px;
+}
+
+.box3 {
+  background-color: blue;
+  margin: 10px;
+}
+
+.box4 {
+  background-color: orange;
+  margin: 10px;
+}

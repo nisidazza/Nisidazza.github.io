@@ -67,6 +67,7 @@ div .dropdown .dropbtn:hover {
 div.main-content {
     margin-left: 10px;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 div.main-content img {
@@ -87,6 +88,17 @@ div.title {
 div.title p {    
     font-size: 2em;
 }
+
+div.column {
+    float: left;
+    padding: 5px;
+}
+
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 footer.social-icon a {
     color:darkslategrey;
@@ -191,22 +203,7 @@ nav.nav-list {
     width: 100%;
 }
 
-div.column {
-    float: left;
-    padding: 5px;
-}
 
-div.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-span.header-background {
-    grid-column: col-start / span 12;
-    grid-row: 1 / 2;
-    background-image: linear-gradient(to right, darkslategrey, azure );
-}
 
 .positions-list ul {
     list-style-type: none; 
@@ -214,19 +211,31 @@ span.header-background {
     
 }
 
+.positions-list li {
+    display:inline;
+    padding-right: 20px;    
+}
+
+.relative-position-list li {
+    font-size: 15px;
+}
+
+span.header-background {
+    grid-column: col-start / span 12;
+    grid-row: 1 / 2;
+    background-image: linear-gradient(to right, darkslategrey, azure );
+}
+
 ul.positions-list a {
     color: black;
     text-decoration: none;
 }
 
-.positions-list li {
-    display:inline;
-    padding-right: 20px;
-     
+
+
+ul.relative-position-list{
+    margin: 5px;
 }
-
-
-
 .wrapper {
     display: grid;
     grid-template-rows: minmax(50px, 50px);

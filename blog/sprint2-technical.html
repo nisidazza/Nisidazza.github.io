@@ -62,26 +62,46 @@
     <form>
       <br>
       <div class="static" id="static-position">
-        <br>
-        <br>
-        <br>
         <h2>Static</h2>
         <p>This is the default for every single page element. It means that the element will flow into the page as it
           normally would. The elements are not affected by the top, bottom, left, and right properties.</p>
-        <iframe src="Positioning_Example/positioning.html" height="150" width="500"></iframe>
+        <iframe src="Positioning_Example/positioning-static.html" height="150" width="500"></iframe>
         <img src="blog-images/static-screenshot-css.JPG" alt="Screenshot of Css Code - Static position">
       </div>
       <div class="relative" id="relative-position">
         <h2>Relative</h2>
+        <p>The element is positioned relative to its normal position.</p>
+        <ul class="relative-position-list">
+          <li>If you set <em>position: relative;</em> on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it's positioning at all, it will be exactly as it would be if you left it as position: static;
+            </li>
+          <li>if you do give it some other positioning attribute, for example <em>top:50px;</em> , it will shift its position 50 pixels down from where it would normally be;
+            </li>
+          <li>By setting the position to relative you can use  z-index on that element;
+            </li>
+          <li>A page element with relative positioning gives you the control to absolutely position children elements inside of it.</li>
+        </ul>
+        <iframe src="Positioning_Example/positioning-relative.html" height="150" width="500"></iframe>
+        <img src="blog-images/relative-screenshot-css.JPG" alt="Screenshot of Css Code - Relative position">
       </div>
       <div class="absolute" id="absolute-position">
         <h2>Absolute</h2>
+        <p>These values will be relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will be placed relative to the page itself.<br>
+          You set the position by using positioning attributes top, left, bottom and right.
+          </p>
+          <iframe src="Positioning_Example/positioning-absolute.html" height="150" width="500"></iframe>
+        <img src="blog-images/absolute-screenshot-css.JPG" alt="Screenshot of Css Code - Absolute position">
       </div>
       <div class="fixed" id="fixed-position">
         <h2>Fixed</h2>
+        <p>The element is positioned relative to the viewport, or the browser window itself. That means it always stays in the same place even if the page is scrolled. In order to position the element, you need to use the top, right, bottom, and left properties.
+          </p>
+          <iframe src="Positioning_Example/positioning-fixed.html" height="150" width="500"></iframe>
+        <img src="blog-images/fixed-screenshot-css.JPG" alt="Screenshot of Css Code - Absolute position">
       </div>
       <div class="sticky" id="sticky-position">
         <h2>Sticky</h2>
+        <p>The element is positioned based on the user's scroll position. <br>Basically  it is used for keeping something shown on the screen throughout scrolling.<br> It is similar to fixed elements ( position: fixed;) as they both maintain their position on the screen, even as the user scrolls up or down the page. <br>The difference is that a sticky element remains confined to the parent container it is in.
+          </p>
       </div>
 
     </form>
