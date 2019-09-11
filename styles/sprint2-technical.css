@@ -15,15 +15,17 @@ html, body {
 
 div.wrapper {
     display: grid;
-    grid-template-rows: minmax(100px, auto) 1fr minmax(75px, auto);
     font-family: 'Libre Franklin', sans-serif;
-    position: relative;
-    min-height: 100%;
+    grid-template-rows: minmax(50px, 50px);
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-image: linear-gradient(to right, darkslategrey, azure );
 }
 
 div.wrapper > * {
     grid-column: col-start / span 12;
-}
+}*
 
 div.dropdown-list {
     display: none;
@@ -125,14 +127,14 @@ footer.social-icon a {
 }
 
 footer.social-icon {
-    grid-column: col-start / span 12;
     display: flex;
+    position:fixed;
     flex-shrink: 0;
     justify-content: space-evenly;
     align-self: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: auto;
+    padding: 0px;
+    bottom: 0px;
+    width: 100%;
     font-size: 30px;
     background-color:rgb(183, 199, 186);
 }
@@ -172,7 +174,11 @@ footer.social-icon #social-gh:hover{
 }
 
 span.header-background {
-    grid-column: col-start / span 12;
     grid-row: 1 / 2;
-    background-image: linear-gradient(to right, darkslategrey, azure );
-}
+    min-height: 200px;
+    display: inline-block;
+    height: 25px;
+    zoom: 1;
+}  
+
+
