@@ -41,7 +41,7 @@ h3 {
 .box2 {
   background-color: green;
   margin: 10px;
-  position: fixed;
+  position: sticky;
   top:50px;
 }
 

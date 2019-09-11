@@ -152,8 +152,11 @@ footer.social-icon #social-gh:hover{
     transition-duration: 0.8s;
 }
 
-iframe{
-    margin: 8px;
+iframe.code-sample{
+    margin-left: 8px;
+    width: 500px;
+    height: 200px;
+    border:none;
 }
 
 .main-menu button {
