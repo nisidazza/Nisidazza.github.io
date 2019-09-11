@@ -13,23 +13,25 @@ html, body {
     box-sizing: border-box;
 }
 
-div.main-content {
-
+body {
+    font-family: 'Libre Franklin', sans-serif; 
 }
 
-.main-content h1 {
-    text-transform: uppercase;
+div.main-content h1 {
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom:10px;
+    padding-top: 20px;
 }
 
-div.wrapper {
-    display: grid;
-    grid-template-rows: minmax(50px, 50px);
-    font-family: 'Libre Franklin', sans-serif;
-    position: relative;
-    width: 100%;
-    top: 0;
-    
+div.main-content p {
+    padding: 5px;
+    font-size: 15px;
 }
+
+
+
 
 div.wrapper > * {
     grid-column: col-start / span 12;
@@ -65,30 +67,9 @@ div .dropdown .dropbtn:hover {
     text-align: center;
 }
 
-div.main-page-img-background {
-    grid-row: 2 / span 10;
-    object-fit: contain;
-    font-size: 8px;
-    text-align: center;
-    margin: 20px auto;
- }
-
-nav.nav-list {
-   grid-column: col-start / span 6;
-   grid-row: 1 / 2; 
-   display: flex;
-   padding: 10px;
-   align-self: center;
-}
-
-nav.nav-list ul {
-    margin: 0px;
-    text-align: center;
-}
-
-nav.nav-list li {
+div.main-content img {
     float: left;
-    list-style-type: none;
+    padding-right: 5px;
 }
 
 div.title {
@@ -104,31 +85,6 @@ div.title {
 div.title p {    
     font-size: 2em;
 }
-
-.main-menu button {
-    background-color:transparent;
-    text-decoration: none;
-    display: flex;
-    border: none;
-    font-weight: bold;
-    font-size: 18px;
-    width:120px;
-}
-
-.main-menu button a{
-    text-decoration: none;
-    color:black;
-    display: block;
-    transition-duration: 0.2s;
-    margin: 0;
-}
-
-.main-menu button a:hover{
-    color: azure;
-    width:120px;  
-    text-align: left;
-}
-
 
 footer.social-icon a {
     color:darkslategrey;
@@ -182,8 +138,78 @@ footer.social-icon #social-gh:hover{
     transition-duration: 0.8s;
 }
 
+.main-menu button {
+    background-color:transparent;
+    text-decoration: none;
+    display: flex;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    width:120px;
+}
+
+.main-menu button a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    transition-duration: 0.2s;
+    margin: 0;
+}
+
+.main-menu button a:hover{
+    color: azure;
+    width:120px;  
+    text-align: left;
+}
+
+
+nav.nav-list {
+    grid-column: col-start / span 6;
+    grid-row: 1 / 2; 
+    display: flex;
+    padding: 10px;
+    align-self: center;
+ }
+ 
+ nav.nav-list ul {
+     margin: 0px;
+     text-align: center;
+ }
+ 
+ nav.nav-list li {
+     float: left;
+     list-style-type: none;
+ }
+
+#positions {
+    width: 100%;
+}
+
 span.header-background {
     grid-column: col-start / span 12;
     grid-row: 1 / 2;
     background-image: linear-gradient(to right, darkslategrey, azure );
 }
+
+table {
+    border: 1px black solid;
+}
+
+th {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.table-content p {
+    font-size: 12px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(50px, 50px);
+    position: relative;
+    width: 100%;
+    top: 0;
+    
+}
+
