@@ -8,14 +8,18 @@
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
   <title>My blog</title>
 </head>
-
 <body>
-  <div class="wrapper">
+<div class="wrapper">
     <span class="header-background"></span>
     <nav class="nav-list">
       <ul class="main-menu">
         <li><button><a href="">Home</a></button></li>
-        <li><button><a href="#" target="_blank">Blog</a></button></li>
+        <li class="dropdown"><button class="dropbtn">Blog</button>
+          <div class="dropdown-list">
+            <a href="blog/sprint2-technical.html" target="_blank">Technical</a>
+            <a href="blog/core.html" target="_blank">Core</a>
+          </div>
+        </li>
         <li><button><a href="">Projects</a></button></li>
         <li><button><a href="">About</a></button></li>
       </ul>
