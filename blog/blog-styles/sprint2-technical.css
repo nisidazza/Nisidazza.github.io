@@ -66,6 +66,7 @@ div .dropdown .dropbtn:hover {
 
 div.main-content {
     margin-left: 10px;
+    width: 100%;
 }
 
 div.main-content img {
@@ -139,7 +140,6 @@ footer.social-icon #social-gh:hover{
     transition-duration: 0.8s;
 }
 
-
 iframe{
     margin: 8px;
 }
@@ -191,11 +191,41 @@ nav.nav-list {
     width: 100%;
 }
 
+div.column {
+    float: left;
+    padding: 5px;
+}
+
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 span.header-background {
     grid-column: col-start / span 12;
     grid-row: 1 / 2;
     background-image: linear-gradient(to right, darkslategrey, azure );
 }
+
+.positions-list ul {
+    list-style-type: none; 
+    width: 100%;
+    
+}
+
+ul.positions-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.positions-list li {
+    display:inline;
+    padding-right: 20px;
+     
+}
+
+
 
 .wrapper {
     display: grid;
