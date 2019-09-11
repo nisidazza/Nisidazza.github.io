@@ -30,9 +30,6 @@ div.main-content p {
     font-size: 15px;
 }
 
-
-
-
 div.wrapper > * {
     grid-column: col-start / span 12;
 }
@@ -65,6 +62,10 @@ div .dropdown:hover .dropdown-list {display: block;}
 div .dropdown .dropbtn:hover { 
     color: azure; 
     text-align: center;
+}
+
+div.main-content {
+    margin-left: 10px;
 }
 
 div.main-content img {
@@ -138,6 +139,11 @@ footer.social-icon #social-gh:hover{
     transition-duration: 0.8s;
 }
 
+
+iframe{
+    margin: 8px;
+}
+
 .main-menu button {
     background-color:transparent;
     text-decoration: none;
@@ -189,19 +195,6 @@ span.header-background {
     grid-column: col-start / span 12;
     grid-row: 1 / 2;
     background-image: linear-gradient(to right, darkslategrey, azure );
-}
-
-table {
-    border: 1px black solid;
-}
-
-th {
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.table-content p {
-    font-size: 12px;
 }
 
 .wrapper {
