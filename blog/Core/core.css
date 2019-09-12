@@ -1,26 +1,26 @@
 div.core-content {
     font-family: 'Libre Franklin', sans-serif;
+    width: 100%;
+
+    /*CENTERING AS PER -- https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /*CENTERING AS PER -- https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
 }
 
 div.img-col-display {
-    float: left;
-    padding: 50px;
+    width: 50%;
 }
 
-div.img-row-display::after {
+div.img-row-display {
     display: flex;
 }
 
-img.learning {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.value {
-    width: 100%;
-    padding: 10px;
+img.center {
+    margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
