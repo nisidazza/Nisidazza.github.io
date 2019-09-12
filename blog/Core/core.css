@@ -4,7 +4,6 @@ div.core-content {
 
 div.img-col-display {
     float: left;
-    flex: 50%;
     padding: 50px;
 }
 
@@ -14,12 +13,17 @@ div.img-row-display::after {
 
 img.learning {
     width: 100%;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img.value {
     width: 100%;
     padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 iframe[name=iframe-header] {
@@ -27,7 +31,7 @@ iframe[name=iframe-header] {
     margin: 0;
     padding: 0;
     border: none;
-    position: absolute;
+    position: fixed;
     display: block;
     z-index: 5000;
 }
