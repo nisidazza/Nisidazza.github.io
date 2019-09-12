@@ -41,6 +41,7 @@ div .dropdown .dropbtn:hover {
 div.main-content {
     margin-left: 10px;
     width: 100%;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
