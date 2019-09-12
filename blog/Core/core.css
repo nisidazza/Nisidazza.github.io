@@ -1,0 +1,20 @@
+#iframe-header {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: absolute;
+    display: block;
+}
+
+#iframe-footer {
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: fixed;
+    display: block;
+}
