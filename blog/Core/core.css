@@ -1,4 +1,4 @@
-#iframe-header {
+iframe[name=iframe-header] {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -6,9 +6,10 @@
     border: none;
     position: absolute;
     display: block;
+    z-index: 5000;
 }
 
-#iframe-footer {
+iframe[name=iframe-footer] {
     bottom: 0;
     width: 100%;
     height: 100%;
