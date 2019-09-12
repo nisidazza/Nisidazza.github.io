@@ -1,0 +1,246 @@
+p, a, h1, h2, h3, h4, h5, h6, figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+div.wrapper>* {
+    grid-column: col-start / span 12;
+}
+
+div.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: azure;
+    min-width: 100px;
+    z-index: 1;
+    text-align: left;
+}
+
+div.dropdown-list a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div .dropdown-list a:hover {
+    background-image: linear-gradient(to bottom, darkslategrey, azure);
+    color: azure;
+}
+
+div .dropdown:hover .dropdown-list {
+    display: block;
+}
+
+div .dropdown .dropbtn:hover {
+    color: azure;
+    text-align: center;
+}
+
+div.main-content {
+    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+div.main-content img {
+    float: left;
+    padding-right: 5px;
+    padding-top:8px;
+}
+
+div.main-content h1 {
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.main-content p {
+    padding: 5px;
+    font-size: 15px;
+}
+
+div.title {
+    grid-column: col-start 7 / span 6;
+    grid-row: 1 / 2;
+    color: black;
+    text-align: right;
+    text-transform: uppercase;
+    align-self: center;
+    margin-right: 10px;
+}
+
+div.title p {
+    font-size: 2em;
+}
+
+div.column {
+    float: left;
+    padding: 5px;
+}
+
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer.social-icon a {
+    color: darkslategrey;
+}
+
+footer.social-icon {
+    display: flex;
+    position: fixed;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    align-self: center;
+    padding: 0px;
+    bottom: 0px;
+    width: 100%;
+    margin-top: auto;
+    font-size: 30px;
+    background-color: rgb(183, 199, 186);
+}
+
+footer.social-icon i {
+    padding: 10px;
+}
+
+footer.social-icon #social-gm:hover {
+    color: #D44638;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+}
+
+footer.social-icon #social-fb:hover {
+    color: #3B5998;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+}
+
+footer.social-icon #social-tw:hover {
+    color: #4099FF;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+}
+
+footer.social-icon #social-in:hover {
+    color: #0e76a8;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+}
+
+footer.social-icon #social-gh:hover {
+    color: #6e5494;
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+}
+
+iframe.code-sample {
+    margin-left: 8px;
+    width: 500px;
+    height: 200px;
+    border: none;
+}
+
+.main-menu button {
+    background-color: transparent;
+    text-decoration: none;
+    display: flex;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    width: 120px;
+}
+
+.main-menu button a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition-duration: 0.2s;
+    margin: 0;
+}
+
+.main-menu button a:hover {
+    color: azure;
+    width: 120px;
+    text-align: left;
+}
+
+nav.nav-list {
+    grid-column: col-start / span 6;
+    grid-row: 1 / 2;
+    display: flex;
+    padding: 10px;
+    align-self: center;
+}
+
+nav.nav-list ul {
+    margin: 0px;
+    text-align: center;
+}
+
+nav.nav-list li {
+    float: left;
+    list-style-type: none;
+}
+
+#positions {
+    width: 100%;
+}
+
+.positions-list ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.positions-list li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.relative-position-list li {
+    font-size: 15px;
+}
+
+span.header-background {
+    grid-column: col-start / span 12;
+    grid-row: 1 / 2;
+    background-image: linear-gradient(to right, darkslategrey, azure);
+}
+
+ul.positions-list a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.relative-position-list {
+    margin: 5px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(50px, 50px);
+    position: relative;
+    width: 100%;
+    top: 0;
+}
