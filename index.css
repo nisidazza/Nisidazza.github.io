@@ -1,14 +1,3 @@
-p, a, h1, h2, h3, h4, h5, h6, figure {
-    margin: 0px;
-    padding: 0px;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -176,14 +165,3 @@ span.header-background {
     grid-row: 1 / 2;
     background-image: linear-gradient(to right, darkslategrey, azure );
 }
-
-
-
-
-
-
-
-
-
-
-

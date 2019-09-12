@@ -26,26 +26,6 @@ img.value {
     margin-right: auto;
 }
 
-iframe[name=iframe-header] {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    position: fixed;
-    display: block;
-    z-index: 5000;
-}
-
-iframe[name=iframe-footer] {
-    bottom: 0px;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-    position: fixed;
-    display: block;
-}
-
 .img-col-display p {
     font-weight: bold;
     text-align: center;
