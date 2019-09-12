@@ -1,17 +1,15 @@
-div.core-value-container {
-    position: relative;
-    font-family: 'Libre Franklin', sans-serif;
-    margin-top: 500px;
-    width: 100%;
+
+div.col {
+    padding: 10px;
+    height: 500px;
 }
 
-div.first-col {
-    width: 50%;
-}
 
-div.first-row {
-    display: flex;
-}
+
+
+
+
+
 
 
 

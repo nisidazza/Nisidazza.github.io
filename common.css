@@ -3,9 +3,15 @@ p, a, h1, h2, h3, h4, h5, h6, figure {
     padding: 0px;
 }
 
+/*border-box tells the browser to account 
+for any border and padding in the values you specify for an element's width and height.*/
+* {
+    box-sizing: border-box;
+  }
+
+
 html, body {
     width: 100%;
-    height: 100%;
     margin: 0;
     font-family: 'Libre Franklin', sans-serif;
     overflow-x: hidden;
@@ -34,7 +40,6 @@ iframe.iframe-footer {
 div.main-content {
     margin-left: 10px;
     margin-right: 10px;
-    width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
