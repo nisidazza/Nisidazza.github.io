@@ -1,6 +1,29 @@
+div.core-content {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+div.img-col-display {
+    float: left;
+    flex: 50%;
+    padding: 50px;
+}
+
+div.img-row-display::after {
+    display: flex;
+}
+
+img.learning {
+    width: 100%;
+    
+}
+
+img.value {
+    width: 100%;
+    padding: 10px;
+}
+
 iframe[name=iframe-header] {
     width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
     border: none;
@@ -10,12 +33,17 @@ iframe[name=iframe-header] {
 }
 
 iframe[name=iframe-footer] {
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border: none;
     position: fixed;
     display: block;
+}
+
+.img-col-display p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
 }
