@@ -1,0 +1,23 @@
+div.core-value-container {
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    padding-top: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+div.first-col {
+    width: 50%;
+}
+
+div.first-row {
+    display: flex;
+}
+
+div.first-col h1{
+    margin-top: 50px;
+    display: block;
+}
+
+
+
