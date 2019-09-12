@@ -11,7 +11,7 @@ html, body {
     overflow-x: hidden;
 }
 
-iframe[name=iframe-header] {
+iframe.iframe-header {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ iframe[name=iframe-header] {
     z-index: 5000;
 }
 
-iframe[name=iframe-footer] {
+iframe.iframe-footer {
     bottom: 0px;
     width: 100%;
     margin: 0px;
