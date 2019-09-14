@@ -2,19 +2,33 @@ div.eq-iq {
 display: inline-block;    
 }
 
-div.eq-framework img {
+
+#img-framework {
     float: right;
-    padding-left: 5px;
-    padding-bottom: 5px;
+    margin-left: 5px;
     width: 50%;
 }
 
-div.eq-framework ul {
+div.eq-iq ul {
     font-size: 15px;
+    margin-top:5px;
 }
 
-div.eq-framework li {
+div.eq-iq li {
     text-align: justify;
+}
+
+div.eq-iq img {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#img-iqvseq {
+    float: left;
+    width: 35%;
+    margin-right: 20px;
+
 }
 
 
