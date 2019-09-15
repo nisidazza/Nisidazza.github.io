@@ -15,10 +15,14 @@ div.img-row1-display {
 }
 
 img.center {
-    margin-top: 20px;
+    border: double black;
     display: block;
+    height: 380px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
+    width: 380px;
 }
 
 .img-col1-display p {
