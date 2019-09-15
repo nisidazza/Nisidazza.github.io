@@ -1,17 +1,18 @@
+div.main-page-content{
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top:30px;
+}
+
 div.main-page-content figcaption {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     display: block;
     font-size: 8px;
-    height: 20px;
     position: relative;
     text-align: center;
     margin-top: -60px; 
 }
 
 div.main-page-content figure {
-    margin-top: 50px;
     width: 100%;
 }
 
@@ -26,15 +27,11 @@ div.main-page-content h1 {
 
 div.main-page-content img {
     width: 100%;
-    margin-bottom: 30px;
 }
 
 div.main-page-content h3{
-    border: 3px dotted darkslategray;
     font-style: italic;
     font-weight: 50;
-    margin-left: 50px;
-    margin-right: 50px;
     padding: 10px;
     text-align: center;
     word-spacing: 5px;
