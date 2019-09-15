@@ -1,18 +1,13 @@
 div.core-content {
     font-family: 'Libre Franklin', sans-serif;
     width: 100%;
-
-    /*CENTERING AS PER -- https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
     margin: 0;
     position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    /*CENTERING AS PER -- https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
+    top: 15%;
 }
 
 div.img-col1-display {
-    width: 33%;
+    width: 50%;
 }
 
 div.img-row1-display {
