@@ -2,13 +2,6 @@ div.eq-iq {
 display: inline-block;    
 }
 
-
-#img-framework {
-    float: right;
-    margin-left: 5px;
-    width: 50%;
-}
-
 div.eq-iq ul {
     font-size: 15px;
     margin-top:5px;
@@ -24,12 +17,32 @@ div.eq-iq img {
     margin-top: 5px;
 }
 
+div.eq-iq h3 {
+    border: double;
+    font-style: italic;
+    font-weight: 2;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    
+    
+     
+}
+
 #img-iqvseq {
     float: left;
     width: 35%;
     margin-right: 20px;
-
 }
+
+
+#img-framework {
+    float: right;
+    margin-left: 5px;
+    width: 50%;
+}
+
+
 
 
 
