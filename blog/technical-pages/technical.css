@@ -3,7 +3,6 @@ div.tech-content {
     width: 100%;
     position: absolute;
     top: 15%;
-    left: 10%;
 }
 
 div.img-col1-display {
@@ -17,10 +16,7 @@ div.img-row1-display {
 
 img.center {
     margin-top: 20px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
+    border: double black;
 }
 
 .img-col1-display p {
