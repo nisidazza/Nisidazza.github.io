@@ -67,14 +67,53 @@ img.animated-gif-water {
 
 img.dom-tree {
     float: left;
+    margin-bottom: 20px;
     margin-right: 5px;
     width: 22%;
 }
 
-div.dom p{
+div.dom p {
     margin-bottom: 10px;
     margin-top:10px;
 }
+
+div.dom h5 {
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+img.dom-interface {
+    border: solid black 1px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width:50%;
+}
+
+img.dom-console {
+    border: 1px dotted black;
+    float: left;
+    width: 80%;
+}
+
+img.view-page-source {
+    border: 1px dotted black;
+    float: left;
+    width: 30%;
+}
+
+
+div.dom ol {
+    float: left;
+}
+
+div.dom li {
+    float: left;
+    font-size:15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
 
 
 

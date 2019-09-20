@@ -60,7 +60,7 @@
             </p>
         </div>
         <div class="dom">
-            <h1>The DOM: how interact with it</h1>
+            <h1>The DOM: what is it and how interact with it?</h1>
             <img src="technical-images/dom-tree.jpeg" alt="DOM Tree" class="dom-tree">
             <p>The DOM stands for <strong>“Document Object Model”</strong> and it’s created from the Browser when a page
                 is loaded.<br>
@@ -71,8 +71,34 @@
                 elements, attributes, text content, comments, document-related stuff and other things; this list does
                 not include pseudo-elements (e.g. ::after) and hidden elements (e.g. with display: none).
             </p>
-            <h3>Interacting with the DOM</h3>
-            
+            <h5>Interacting with the DOM</h5>
+            <p>The DOM allows JavaScript to access the text content and elements of the website document as
+                objects
+                by using properties and methods.<br>
+                When you're interested in a particular DOM node, <em>Inspect</em> is an easy and fast way to open
+                DevTools and
+                investigate that node.</p>
+            <img src="technical-images/JS_editing_DOM.JPG" alt="DOM Interface" class="dom-interface">
+            <p>The below images show how the DOM can be modified by client-side Javascript:
+                <ol>
+                    <li>We start by typing <em>document.body</em> into the console:</li><br>
+                    <img src="technical-images/JS_editing_DOM2.JPG" alt="Console - document.body" class="dom-console">
+                    <li>We can type <em>document.body.style.backgroundColor = 'color'; </em> to change the background
+                        color of the body object:</li>
+                    <img src="technical-images/JS_editing_DOM3.JPG" alt="DevTools-Console - set background color"
+                        class="dom-console">
+                    <li>If we type in the console <em>document.body</em> or we go to the Elements tab, we can see that
+                        the
+                        DOM has changed:</li>
+                    <img src="technical-images/JS_editing_DOM4.JPG" alt="Changed DOM" class="dom-console">
+                    <li>But if we right-click on the page and we select “View Page Source”, we can see that the source
+                        of the website does not contain the new background color added via Javascript.
+                    </li>
+                    <img src="technical-images/JS_editing_DOM-view-page-source.JPG" alt="View Page Source"
+                        class="view-page-source">
+                </ol>
+            </p>
+
 
         </div>
         <div>
