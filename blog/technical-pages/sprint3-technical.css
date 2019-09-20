@@ -48,12 +48,14 @@ img.animated-gif-monkey {
     width: 23%;
 }
 
-div.control-flow-loops em {
+div.control-flow-loops em,
+div.array-object em {
     color:darkslategray;
     font-family:'Ink Free';
     font-size: 18px;
     font-weight:bold;
     margin-left: 10px;
+    word-spacing:3px; 
 }
 
 img.animated-gif-water {
@@ -101,7 +103,6 @@ img.view-page-source {
     width: 30%;
 }
 
-
 div.dom ol {
     float: left;
     display: block;
@@ -115,9 +116,14 @@ div.dom li {
 }
 
 img.corgie {
-    width: 30%;
     float: left;
     margin:5px;
+    width: 30%;
+}
+
+div.array-object {
+    float: left;
+    margin-bottom: 80px;
 }
 
 
