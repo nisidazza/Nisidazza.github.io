@@ -92,7 +92,7 @@ img.dom-interface {
 img.dom-console {
     border: 1px dotted black;
     float: left;
-    width: 80%;
+    width: 50%;
 }
 
 img.view-page-source {
@@ -104,6 +104,7 @@ img.view-page-source {
 
 div.dom ol {
     float: left;
+    display: block;
 }
 
 div.dom li {
@@ -112,6 +113,13 @@ div.dom li {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+img.corgie {
+    width: 30%;
+    float: left;
+    margin:5px;
+}
+
 
 
 
