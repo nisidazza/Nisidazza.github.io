@@ -123,7 +123,17 @@ img.corgie {
 
 div.array-object {
     float: left;
+    margin-bottom: 10px;
+}
+
+div.functions {
+    float: left;
     margin-bottom: 80px;
+}
+
+img#function-img {
+    float: left;
+    width: 20%;
 }
 
 

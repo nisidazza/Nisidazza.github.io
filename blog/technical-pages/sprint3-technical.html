@@ -101,14 +101,14 @@
             </p>
             <p>You can also edit, hide or move the nodes by doing double-click on the content you want to change, or
                 drag it if you want to move it, and see how those changes affect the page.</p>
-            <h4>Before...and After...</h4>
+            <h4>Before... and After...</h4>
             <img src="technical-images/DOM.JPG" alt="The Queen's Corgie" class="corgie">
             <img src="technical-images/editing-DOM.JPG" alt="Corgie the King" class="corgie">
         </div>
         <div class="array-object">
             <h1>Accessing data from arrays and objects: what's the difference?</h1>
             <h5>Arrays</h5>
-            <p>Each item in an array is identified by a number called its index.<br>
+            <p>Each item in an array is identified by a number called its <u>index</u>.<br>
                 <em>let myFlowersArray = [“orchid”, ”rose”, ”lily”];</em><br>
                 Arrays use zero-based indexing, so the first element in an array is element 0.<br>
                 <em>orchid: index 0; rose: index 1; lily: index 2;</em><br>
@@ -116,6 +116,26 @@
                 <em>myFlowersArray[0]; // orchid</em><br>
                 <em>myFlowersArray[1]; // rose</em><br>
                 <em>myFlowersArray[2]; // lily</em><br>
+            </p>
+            <h5>Objects</h5>
+            <p>An object is created by using figure brackets {} with a list of properties.<br>
+                <em>let movie = { "name": “Pride & Prejudice”, "year-released": 2005, "director": “Joe Wright”
+                    }</em><br>
+                You can access a particular property by using dot notation or square brackets.<br>
+                <em>console.log(movie.name); → output: Pride & Prejudice</em><br>
+                <em>console.log(movie.[‘director’]); → output: Joe Wright</em>
+            </p>
+        </div>
+        <div class="functions">
+            <h1>Functions: why they are useful</h1>
+            <p>Functions are reusable blocks of code that groups together a set of statements to perform a specific
+                task. A code inside functions is run whenever that function is called. (see example below).</p>
+                <img src="technical-images/function-example.JPG" alt="example of js function"><br>
+                <p>They are useful when you have a few lines of code that needs to be used several times.<br>
+                Also, in Javascript, a function is an object, that means that we can assign it to variables,
+                to array elements and to other objects;  we can pass it as parameter into another
+                function, or it can be returned from another function (see example below).</p>
+                <img src="technical-images/function-returning-function.JPG" alt="example of function returning a function" id="function-img">
             </p>
         </div>
     </div>
