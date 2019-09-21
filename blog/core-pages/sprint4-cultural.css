@@ -23,7 +23,18 @@ div.neuro-mindset li {
 }
 
 div.neuro-mindset ul {
+    margin-bottom: 0;
     margin-top: 5px;
+}
+
+div.link-to-resource a {
+    color: darkslategray;
+    font-size: 14px;
+    margin-bottom: 120px;
+}
+
+div.link-to-resource {
+    margin-bottom: 120px;
 }
 
 
