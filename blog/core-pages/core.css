@@ -8,25 +8,42 @@ div.core-content {
 
 div.img-col1-display {
     width: 50%;
+    text-align: center;
+}
+
+div.core-content p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+div.img-col2-display {
+    width: 50%;
+    text-align: center;
 }
 
 div.img-row1-display {
     display: flex;
 }
 
+div.img-row2-display {
+    display: flex;
+    margin-bottom: 80px;
+}
+
 img.center {
     border: double black;
     display: block;
     height: 380px;
+    margin-bottom: 20px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    width: 380px;
+    width: 400px;
 }
 
-.img-col1-display p {
-    font-weight: bold;
-    text-align: center;
-    font-size: 22px;
-}
+
+
+
+
