@@ -37,9 +37,11 @@ iframe.iframe-footer {
 }
 
 div.main-content {
+    margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    line-height: 1.8;
 }
 
 div.main-content h1 {
@@ -54,5 +56,4 @@ div.main-content p {
     padding: 5px;
     font-size: 15px;
     text-align: justify;
-    line-height: 1.8;
 }

@@ -1,0 +1,29 @@
+div.neuro-mindset {
+    display: inline-block;
+
+}
+
+img.neuron {
+    float: left;
+    width: 24%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+div.neuro-mindset em {
+    color:darkslategray;
+    font-family:'Ink Free';
+    font-size: 16px;
+    font-weight:bold;
+    word-spacing:3px; 
+}
+
+div.neuro-mindset li {
+    font-size: 15px;
+}
+
+div.neuro-mindset ul {
+    margin-top: 5px;
+}
+
+
