@@ -1,5 +1,6 @@
 div.neuro-mindset {
     display: inline-block;
+    margin-bottom: 80px;
 
 }
 
@@ -27,10 +28,9 @@ div.neuro-mindset ul {
     margin-top: 5px;
 }
 
-div.link-to-resource a {
+a.link-to-resource{
     color: darkslategray;
     font-size: 14px;
-    margin-bottom: 120px;
 }
 
 div.neuroplasticity {
