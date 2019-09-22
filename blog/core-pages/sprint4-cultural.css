@@ -33,8 +33,20 @@ div.link-to-resource a {
     margin-bottom: 120px;
 }
 
-div.link-to-resource {
-    margin-bottom: 120px;
+div.neuroplasticity {
+    margin-bottom: 10px;
+}
+
+div.mindset {
+    display: block;
+}
+
+img.mindset-img {
+    float: right;
+    width: 45%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
 }
 
 
