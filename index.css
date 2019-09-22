@@ -9,7 +9,6 @@ div.main-page-content figcaption {
     font-size: 8px;
     position: relative;
     text-align: center;
-    margin-top: -60px; 
 }
 
 div.main-page-content figure {
@@ -19,19 +18,21 @@ div.main-page-content figure {
 div.main-page-content h1 {
     font-style: italic;
     font-weight: 100;
-    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-top: 50px;
     text-align: center;
     text-transform: capitalize;   
     word-spacing: 10px; 
 } 
 
 div.main-page-content img {
-    width: 100%;
+    max-width: 100%;
 }
 
 div.main-page-content h3{
     font-style: italic;
     font-weight: 50;
+    margin-bottom: 50px;
     padding: 10px;
     text-align: center;
     word-spacing: 5px;

@@ -24,7 +24,6 @@ iframe.iframe-header {
     border: none;
     position: fixed;
     display: block;
-    z-index: 5000;
 }
 
 iframe.iframe-footer {
