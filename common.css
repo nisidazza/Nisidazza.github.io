@@ -24,6 +24,7 @@ iframe.iframe-header {
     border: none;
     position: fixed;
     display: block;
+    z-index: 500;
 }
 
 iframe.iframe-footer {
@@ -34,6 +35,7 @@ iframe.iframe-footer {
     border: none;
     position: fixed;
     display: block;
+    z-index: 500;
 }
 
 div.main-content {
