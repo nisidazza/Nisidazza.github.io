@@ -17,6 +17,7 @@ div.img-row1-display {
 img.center {
     margin-top: 20px;
     border: double black;
+    width: 70%;
 }
 
 .img-col1-display p {
