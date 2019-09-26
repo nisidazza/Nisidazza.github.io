@@ -36,3 +36,14 @@ img.solve-problem {
     margin-right: 10px;
     width: 25%;
 }
+
+div.sprint4-container li {
+    font-size:15px;
+    list-style-type:none;
+    margin: 5px;
+}
+
+div.sprint4-container ul {
+    padding-left: 5px;
+}
+
