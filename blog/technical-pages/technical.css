@@ -12,6 +12,12 @@ div.img-col1-display {
 
 div.img-row1-display {
     display: flex;
+    margin-bottom: 30px;
+}
+
+div.img-row2-display {
+    display: flex;
+    margin-bottom: 80px;
 }
 
 img.center {
