@@ -34,3 +34,13 @@ div.display-col li {
     margin-right: 20px;
     text-align: justify;
 }
+
+div.display-col a {
+    font-size: 14px;
+    margin: 5px;
+    color: black;
+}
+
+div.display-col button {
+    margin: 5px;
+}
