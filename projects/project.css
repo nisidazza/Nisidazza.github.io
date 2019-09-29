@@ -1,0 +1,36 @@
+div.project {
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.8;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+div.display-row {
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+div.display-col {
+    text-align: left;
+    margin-top: 80x;
+}
+
+div.display-col h4 {
+    margin-top: 2%;
+}
+
+div.display-col h5 {
+    margin-top: 1%;
+}
+
+div.display-col ol {
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+div.display-col li {
+    margin-right: 20px;
+    text-align: justify;
+}
