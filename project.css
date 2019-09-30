@@ -9,7 +9,7 @@ div.project {
 
 div.display-row {
     display: inline-flex;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 div.display-col {
@@ -17,17 +17,9 @@ div.display-col {
     margin-top: 80x;
 }
 
-div.display-col h4 {
-    margin-top: 2%;
-}
-
-div.display-col h5 {
-    margin-top: 1%;
-}
-
 div.display-col ol {
     font-size: 15px;
-    margin-right: 20px;
+    margin-right: 20px;   
 }
 
 div.display-col li {
