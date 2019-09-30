@@ -36,11 +36,21 @@ div.display-col li {
 }
 
 div.display-col a {
+    text-decoration: none;
     font-size: 14px;
-    margin: 5px;
-    color: black;
+    color: white;
+    padding-top: 10px;
 }
 
 div.display-col button {
-    margin: 5px;
+    margin-left: 20px;
+    border-radius: 4px; 
+}
+
+button.btn-style {
+    background-color: rgb(57, 96, 96);
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
