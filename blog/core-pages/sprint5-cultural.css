@@ -1,0 +1,17 @@
+div.foundations-core {
+    position: relative;
+    text-align: center;
+}
+
+div.foundations-core img {
+    width: 100%;
+    opacity: 0.7;
+}
+
+div.foundations-core li {
+    list-style-type: none;
+}
+
+div.foundations-core p {
+    text-align: center;
+}
