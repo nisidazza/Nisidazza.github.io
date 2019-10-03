@@ -8,13 +8,13 @@ div.project {
 }
 
 div.display-row {
-    display: inline-flex;
+    display:block;
     margin-top: 10px;
 }
 
 div.display-col {
     text-align: left;
-    margin-top: 80x;
+    margin-bottom: 20px;
 }
 
 div.display-col ol {
