@@ -2,51 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link href="/common.css" type="text/css" rel="stylesheet">
-    <link href="project.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <title>Project Blog</title>
+  <meta charset="UTF-8">
+  <link href="/common.css" type="text/css" rel="stylesheet">
+  <link href="project.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <title>Project Blog</title>
 </head>
 
 <body>
-    <div id="header">
-        <iframe class="iframe-header" src="/blog/common-page-element/common-header.html"></iframe>
+  <div id="header">
+    <iframe class="iframe-header" src="/blog/common-page-element/common-header.html"></iframe>
+  </div>
+  <div class="main-content project">
+    <div class="display-row">
+      <div class="display-col">
+        <h4>MINESWEEPER</h4>
+        <h5>Rules of the Game</h5>
+        <ol>
+          <li>The minesweeper board is a square of different sizes.</li>
+          <li>The board has a predetermined number of randomly placed mines. The player cannot see them.</li>
+          <li>Cells can exist in one of two states: opened or closed. Clicking on a cell opens it. If a mine
+            was lurking there, the game ends in failure. If there is no mine in the cell, but there are
+            mines in one or more of its neighboring cells, then the opened cell shows the neighboring mine
+            count. When none of the cell’s neighbors are mined, each one of those cells is opened
+            automatically.</li>
+          <li>Right clicking on a cell marks it with a flag. The flag indicates that the player knows there is
+            a mine lurking there.</li>
+          <li>The player wins the game if he/she opens all cells without mines.</li>
+        </ol>
+        <p>You will find the "look" of my minesweeper different from the original, but the rules are always the
+          same. Have fun!</p>
+        <button class="btn-style"><a href="minesweeper/index.html" target="_blank">Click here to
+            play!</a></button>
+      </div>
+      <div class="display-col">
+        <h4>CALCULATOR</h4>
+        <p>Simple calculator which allows you to do math operations as addition, subtraction, multiplication,
+          and division.</p>
+        <button class="btn-style"><a href="calculator/index.html" target="_blank">You can count on
+            me!!!</a></button>
+      </div>
+      <div class="display-col">
+        <h4>INFLATE THE UNICORN!</h4>
+        <p>Click on the balloon until is full...the unicorns will be grateful!</p>
+        <button class="btn-style"><a href="javascript-carnival/inflate-the-unicorn/inflate-the-unicorn.html" target="_blank">Click here to
+          play!</a></button>
+      </div>
     </div>
-    <div class="main-content project">
-        <div class="display-row">
-            <div class="display-col">
-                <h4>MINESWEEPER</h4>
-                <h5>Rules of the Game</h5>
-                <ol>
-                    <li>The minesweeper board is a square of different sizes.</li>
-                    <li>The board has a predetermined number of randomly placed mines. The player cannot see them.</li>
-                    <li>Cells can exist in one of two states: opened or closed. Clicking on a cell opens it. If a mine
-                        was lurking there, the game ends in failure. If there is no mine in the cell, but there are
-                        mines in one or more of its neighboring cells, then the opened cell shows the neighboring mine
-                        count. When none of the cell’s neighbors are mined, each one of those cells is opened
-                        automatically.</li>
-                    <li>Right clicking on a cell marks it with a flag. The flag indicates that the player knows there is
-                        a mine lurking there.</li>
-                    <li>The player wins the game if he/she opens all cells without mines.</li>
-                </ol>
-                <p>You will find the "look" of my minesweeper different from the original, but the rules are always the
-                    same. Have fun!</p>
-                <button class="btn-style"><a href="minesweeper/index.html" target="_blank">Click here to
-                        play!</a></button>
-            </div>
-            <div class="display-col">
-                <h4>CALCULATOR</h4>
-                <p>Simple calculator which allows you to do math operations as addition, subtraction, multiplication,
-                    and division.</p>
-                <button class="btn-style"><a href="calculator/index.html" target="_blank">You can count on me!!!</a></button>
-            </div>
-        </div>
-    </div>
-    <div id="footer">
-        <iframe class="iframe-footer" src="/blog/common-page-element/common-footer.html" height="50"></iframe>
-    </div>
+  </div>
+  <div id="footer">
+    <iframe class="iframe-footer" src="/blog/common-page-element/common-footer.html" height="50"></iframe>
+  </div>
 </body>
 
 </html>
